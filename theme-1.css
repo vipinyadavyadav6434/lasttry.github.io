@@ -1,0 +1,384 @@
+/*!   
+*/
+
+html,
+body {
+    height: 100%
+}
+
+.hero-section {
+    height: 100%;
+    width: 100%;
+    position: relative
+}
+
+.hero-section .content-wrapper {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    color: #fff
+}
+
+.hero-section .logo {
+    font-size: 68px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    position: relative
+}
+
+.hero-section .logo img {
+    display: inline-block
+}
+
+.hero-section .script {
+    font-size: 26px;
+    color: #b98d36
+}
+
+.hero-section .tagline .list {
+    overflow: hidden;
+    display: inline-block;
+    padding-left: 0;
+    margin-bottom: 0
+}
+
+.hero-section .tagline .list li {
+    display: inline-block;
+    float: left;
+    font-size: 18px
+}
+
+.hero-section .tagline .svg-inline--fa {
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    top: -3px
+}
+
+.hero-section .promo-line {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 28px
+}
+
+.hero-section .btn {
+    font-size: 18px;
+    font-weight: bold
+}
+
+.hero-section .scroll-link {
+    position: absolute;
+    bottom: 30px;
+    z-index: 10;
+    color: #fff;
+    width: 100%;
+    font-size: 14px
+}
+
+.hero-section .scroll-link a {
+    color: #fff
+}
+
+.hero-section .scroll-link .arrow-holder {
+    position: relative;
+    top: 0px
+}
+
+.hero-section .scroll-link .animate {
+    animation: arrow-animation 750ms ease-in-out infinite alternate;
+    -moz-animation: arrow-animation 750ms ease-in-out infinite alternate;
+    -webkit-animation: arrow-animation 750ms ease-in-out infinite alternate;
+    -o-animation: arrow-animation 750ms ease-in-out infinite alternate
+}
+
+.bg-slider-wrapper {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #595959
+}
+
+.bg-slider-wrapper .flexslider {
+    margin: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    height: 100%
+}
+
+.bg-slider-wrapper .flexslider .slides {
+    height: 100%
+}
+
+.bg-slider-wrapper .flexslider .slide {
+    display: block;
+    height: 100%;
+    position: relative
+}
+
+.bg-slider-wrapper .flexslider .slide.slide-1 {
+    background: #666 url("assets/img/banner/h3-banner1.jpg") no-repeat 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.bg-slider-wrapper .flexslider .flex-control-nav {
+    z-index: 20;
+    bottom: 45px;
+    position: relative
+}
+
+.bg-slider-wrapper .flexslider .flex-control-nav li a {
+    background: rgba(255, 255, 255, 0.3)
+}
+
+.bg-slider-wrapper .flexslider .flex-control-nav li a.flex-active {
+    background: rgba(255, 255, 255, 0.8)
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px),
+(min-width: 1100px) {
+    div.example {
+        padding-top: 150px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 360px) {
+    div.example {
+        padding-top: 0px;
+        font-size: 16px;
+        margin-left: -5%;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px),
+(min-width: 1100px) {
+    div.head {
+        font-size: 52px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 360px) {
+    div.head {
+        font-size: 35px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        line-height: 1;
+        margin-top: 80px;
+        padding-left: 8%;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px),
+(min-width: 1100px) {
+    div.servicesimg {
+        padding-bottom: 400px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 360px) {
+    div.servicesimg {
+        padding-top: 20px;
+        line-height: 1.8;
+        font-size: 18px;
+    }
+}
+
+/*---------------head font-------------*/
+
+@media screen and (max-width: 900px) and (min-width: 600px),
+(min-width: 1100px) {
+    h1.headfont {
+        font-size: 40px;
+        font-weight: bold;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 360px) {
+    h1.headfont {
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 1092px) {
+    h1.headfont {
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 760px) {
+    h1.headfont {
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        line-height: 1.2;
+    }
+}
+
+/*---------------head font-------------*/
+
+/*---------------head font small-------------*/
+
+@media screen and (max-width: 900px) and (min-width: 600px),
+(min-width: 1100px) {
+    div.headfont1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 360px) {
+    div.headfont1 {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+}
+
+@media (max-width: 888px) {
+    div.headfont1 {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+}
+
+/*---------------head font small-------------*/
+
+/*---------------head font h2-------------*/
+
+@media screen and (max-width: 900px) and (min-width: 600px),
+(min-width: 1100px) {
+    h2.headfont1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 360px) {
+    h2.headfont1 {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+}
+
+@media (max-width: 888px) {
+    h2.headfont1 {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+}
+
+/*---------------head font h2-------------*/
+
+@media screen and (max-width: 900px) and (min-width: 600px),
+(min-width: 1100px) {
+    div.appicons {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 360px) {
+    div.appicons {
+        margin: 0 auto;
+        display: inline-flex;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px),
+(min-width: 1100px) {
+    div.headimg {
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 278px) and (min-width: 200px) {
+    div.headimg {
+        background: #666 url("assets/img/banner/h3-banner2.jpg");
+        display: inline-table;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        color: #fff;
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 360px) and (min-width: 280px) {
+    div.headimg {
+        background: #666 url("assets/img/banner/h3-banner2.jpg");
+        display: inline-table;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        color: #fff;
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 360px) {
+    div.headimg {
+        background: #666 url("assets/img/banner/h3-banner2.jpg") no-repeat 50% 100%;
+        display: inline-table;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        color: #fff;
+        background-color: #fff;
+        padding-right: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) and (min-width: 480px) {
+    div.headimg {
+        background: #666 url("assets/img/banner/h3-banner2.jpg") no-repeat 50% 50%;
+        display: inline-table;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        color: #fff;
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 550px) {
+    div.headimg {
+        background: #666 url("assets/img/banner/h3-banner2.jpg") no-repeat 50% 50%;
+        display: inline-table;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        color: #fff;
+        background-color: #fff;
+    }
+}
